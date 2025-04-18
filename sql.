@@ -1,0 +1,9 @@
+CREATE DATABASE dienmay;
+
+USE dienmay;
+
+CREATE TABLE may_lanh (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    ten_san_pham VARCHAR(255),
+    gia VARCHAR(50)
+);
